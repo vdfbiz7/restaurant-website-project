@@ -109,7 +109,7 @@ ul li a:hover {
 	margin: 0;
 	max-width: 100%;
 
-	background-image: url("/img/resaturant-background.jpg");
+	background-image: url("/img/restaurant-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 80vh;
@@ -125,6 +125,48 @@ ul li a:hover {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	border: 5px solid whitesmoke;
+	background: radial-gradient(circle farthest-side, #fceabb, #e6b873);
+	padding: 20px;
+}
+.main h1,
+h2,
+button {
+	margin: 10px;
+}
+.main h1 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 3em;
+	letter-spacing: -2px;
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+}
+.main button {
+	background-color: #fbeee0;
+	border: 2px solid #422800;
+	border-radius: 30px;
+	box-shadow: #422800 4px 4px 0 0;
+	color: #422800;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 0 18px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.main button:hover {
+	background-color: #fff;
+}
+
+.main button:active {
+	box-shadow: #422800 2px 2px 0 0;
+	transform: translate(2px, 2px);
 }
 footer {
 	width: 100%;
