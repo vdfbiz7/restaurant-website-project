@@ -180,3 +180,82 @@ footer {
 footer p {
 	font-weight: bold;
 }
+
+input,
+select,
+textarea {
+	border-radius: 2px;
+	border: 2px solid #777;
+	box-sizing: border-box;
+	font-size: 1.05em;
+	font-family: cursive;
+	width: 100%;
+	padding: 10px;
+}
+label {
+	display: block;
+	font-family: cursive;
+	padding-top: 10px;
+	font-size: 1.05em;
+	color: white;
+}
+div.elem-group {
+	margin: 0;
+}
+
+div.elem-group.inlined {
+	width: 49%;
+	display: inline-block;
+	float: left;
+	margin-left: 0;
+}
+textarea {
+	height: 150px;
+}
+
+hr {
+	border-radius: 2px;
+	border: 2px solid #777;
+}
+form {
+	background: radial-gradient(circle farthest-side, #fceabb, #a06b1b);
+	border: 2px solid #422800;
+	border-radius: 30px;
+	padding: 10px;
+	min-width: 50vh;
+}
+.formButton {
+	position: relative;
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.formButton button {
+	background-color: #fbeee0;
+	border: 2px solid #422800;
+	border-radius: 30px;
+	box-shadow: #422800 4px 4px 0 0;
+	color: #422800;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 0 18px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.formButton button:hover {
+	background-color: #fff;
+}
+
+.formButton button:active {
+	box-shadow: #422800 2px 2px 0 0;
+	transform: translate(2px, 2px);
+}
