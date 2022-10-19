@@ -16,8 +16,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -37,28 +35,29 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![HTML][HTML]][HTML-url]
-* [![CSS][CSS]][CSS-url]
-* [![Javascript][Javascript]][Javascript-url]
+- [![HTML][html]][html-url]
+- [![CSS][css]][css-url]
+- [![Javascript][javascript]][javascript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## About The Project
 
 This section should the website home, where you can directly book a table.
-[![RestHome][RestHome-screenshot]]
+[![RestHome][resthome-screenshot]]
 This section should the website home, where you can book a table.
-[![RestBook][RestBook-screenshot]]
+[![RestBook][restbook-screenshot]]
 This section should the website home, where you can see the menu.
-[![RestMenu][RestMenu-screenshot]]
+[![RestMenu][restmenu-screenshot]]
 This section should the website home, where you can see the restaurant details.
-[![RestRestaurant][RestRestaurant-screenshot]]
+[![RestRestaurant][restrestaurant-screenshot]]
 This section should the website home, where you can see the contact page.
-[![RestContact][RestContact-screenshot]]
+[![RestContact][restcontact-screenshot]]
 This section should the website home, where you can see the navbar.
-[![RestNavbar][RestNavbar-screenshot]]
+[![RestNavbar][restnavbar-screenshot]]
 
 <!-- CONTACT -->
+
 ## Contact
 
 Víctor Dorado - vdfbiz7@gmail.com
@@ -67,5 +66,6 @@ Víctor Dorado - vdfbiz7@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com
