@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vdfbiz7/restaurant-website-project">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Restaurant website project</h3>
@@ -21,9 +21,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-    <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+        <a href="#built-with">Built With</a>
       <a href="#about-the-project">About The Project</a>
     </li>
   </ol>
@@ -67,5 +65,4 @@ Víctor Dorado - vdfbiz7@gmail.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[jquery-url]: https://jquery.com
+[resthome-screenshot]: /img/res/REST_Project_HOME.png
