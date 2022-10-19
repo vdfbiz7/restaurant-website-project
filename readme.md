@@ -42,17 +42,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## About The Project
 
 This section should the website home, where you can directly book a table.
-[![RestHome][resthome-screenshot]]
+![RestHome][resthome-screenshot]
 This section should the website home, where you can book a table.
-[![RestBook][restbook-screenshot]]
+![RestBook][restbook-screenshot]
 This section should the website home, where you can see the menu.
-[![RestMenu][restmenu-screenshot]]
+![RestMenu][restmenu-screenshot]
 This section should the website home, where you can see the restaurant details.
-[![RestRestaurant][restrestaurant-screenshot]]
+![RestRestaurant][restrestaurant-screenshot]
 This section should the website home, where you can see the contact page.
-[![RestContact][restcontact-screenshot]]
+![RestContact][restcontact-screenshot]
 This section should the website home, where you can see the navbar.
-[![RestNavbar][restnavbar-screenshot]]
+![RestNavbar][restnavbar-screenshot]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
