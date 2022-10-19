@@ -43,14 +43,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 This section should the website home, where you can directly book a table.
 ![RestHome][resthome-screenshot]
+<br />
 This section should the website home, where you can book a table.
 ![RestBook][restbook-screenshot]
+<br />
 This section should the website home, where you can see the menu.
 ![RestMenu][restmenu-screenshot]
+<br />
 This section should the website home, where you can see the restaurant details.
 ![RestRestaurant][restrestaurant-screenshot]
+<br />
 This section should the website home, where you can see the contact page.
 ![RestContact][restcontact-screenshot]
+<br />
 This section should the website home, where you can see the navbar.
 ![RestNavbar][restnavbar-screenshot]
 
