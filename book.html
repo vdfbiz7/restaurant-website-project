@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Restaurant Web</title>
+		<meta name="description" content="A new restaurant webiste project." />
+		<meta name="author" content="Víctor Dorado" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<!-- The idea is to do something similar to this: https://makkila.com/-->
+		<section>
+			<!--Logo and Navbar -->
+			<header>
+				<nav>
+					<ul class="nav-links" id="centered_nav">
+						<!-- NAVIGATION MENUS -->
+						<li><a href="book.html">Reservar</a></li>
+						<li><a href="menu.html">Carta</a></li>
+
+						<div class="logo">
+							<img src="./img/logo.jpg" onclick="location.href='index.html'" />
+						</div>
+						<li class="dropdown">
+							<button class="dropbtn">Restaurantes</button>
+							<!-- DROPDOWN MENU -->
+							<ul class="dropdown-content">
+								<li><a href="barcelona.html">Barcelona</a></li>
+								<li><a href="madrid.html">Madrid</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		</section>
+		<section class="bkg">
+			<div id="principal">
+				<form method="post">
+					<div class="elem-group">
+						<label for="name">Your Name</label>
+						<input
+							type="text"
+							id="name"
+							name="visitor_name"
+							placeholder="John Doe"
+							pattern="[A-Z\sa-z]{3,20}"
+							required
+						/>
+					</div>
+					<div class="elem-group">
+						<label for="email">Your E-mail</label>
+						<input
+							type="email"
+							id="email"
+							name="visitor_email"
+							placeholder="john.doe@email.com"
+							required
+						/>
+					</div>
+					<div class="elem-group">
+						<label for="phone">Your Phone</label>
+						<input
+							type="tel"
+							id="phone"
+							name="visitor_phone"
+							placeholder="777-777-777"
+							pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})"
+							required
+						/>
+					</div>
+					<hr />
+					<div class="elem-group">
+						<label for="adult">Number of people</label>
+						<input
+							type="number"
+							id="adult"
+							name="total_adults"
+							placeholder="2"
+							min="1"
+							required
+						/>
+					</div>
+					<div class="elem-group">
+						<label for="checkin-date">Date</label>
+						<input type="date" id="checkin-date" name="checkin" required />
+					</div>
+					<div class="elem-group">
+						<label for="room-selection">Select city</label>
+						<select id="room-selection" name="room_preference" required>
+							<option value="inside">Barcelona</option>
+							<option value="outside">Madrid</option>
+						</select>
+					</div>
+					<hr />
+					<div class="formButton">
+						<button type="submit">Book the table</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section>
+			<footer>
+				Website developed by
+				<p>: @vdfbiz7</p>
+			</footer>
+		</section>
+	</body>
+	<script src="js/script.js"></script>
+</html>
