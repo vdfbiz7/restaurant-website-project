@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vdfbiz7/restaurant-website-project">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Restaurant website project</h3>
@@ -33,9 +33,9 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [![HTML][html]][html-url]
-- [![CSS][css]][css-url]
-- [![Javascript][javascript]][javascript-url]
+- HTML
+- CSS
+- Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,15 +54,14 @@ This section should the website home, where you can see the contact page.
 This section should the website home, where you can see the navbar.
 [![RestNavbar][restnavbar-screenshot]]
 
-<!-- CONTACT -->
-
-## Contact
-
-Víctor Dorado - vdfbiz7@gmail.com
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [resthome-screenshot]: /img/res/REST_Project_HOME.png
+[restbook-screenshot]: /img/res/REST_Project_BOOK.png
+[restmenu-screenshot]: /img/res/REST_Project_MENU.png
+[restrestaurant-screenshot]: /img/res/REST_Project_BarcelonaMap.png
+[restcontact-screenshot]: /img/res/REST_Project_CONTACT.png
+[restnavbar-screenshot]: /img/res/REST_Project_NAVBAR.png
